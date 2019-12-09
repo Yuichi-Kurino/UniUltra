@@ -6,12 +6,15 @@ var title = "UniUltraTech";
 router.get('/display', function(req, res, next) {
   var query = require('url').parse(req.url, true).query;
 
-  var uniUltraLogo = "/images/Uniultra log.png";
-
-  var id = query.dd;
-  var name = "Thomas";
+  var uniUltraLogo = "/images/imageedit_2_2824098619.png";
+  var meetingVideo = "/images/Meeting - 2340.mp4";
+  var contactUs = "/images/contact Us.png";
+  var freeConsultant = "/images/free consultant.png";
+  var startOnProject = "/images/Start on project.png";
   var buffer ="";
-  res.render('index', { title:title, data:buffer,name, id, uniUltraLogo});
+  res.render('index', { title:title, data:buffer, uniUltraLogo, meetingVideo, contactUs, freeConsultant, startOnProject});
+
 });
+
 
 module.exports = router;

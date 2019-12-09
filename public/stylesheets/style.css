@@ -1,8 +1,100 @@
-body {
-  padding: 50px;
+html, body {
+  margin: 0;
+  height: 100%;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+tr{
 
-a {
-  color: #00B7FF;
+  width:70%;
 }
+td.a {
+  background-color: #A8F0E1;
+  width: fit-content;
+  position: center;
+  height: 15%;
+  /*width: 15%;*/
+}
+
+td.b {
+  background-color: #FA9917;
+  border-color: #FA9917;
+}
+.button {
+  background-color: transparent; /* Green */
+  color: white;
+  border: none;
+  /*padding: 15px 32px;*/
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "American Typewriter", "Avenir Next Condensed";
+  font-size: 20px;
+  font-weight: lighter;
+  height: auto;
+}
+
+.container { position:relative; }
+.container video {
+  position:relative;
+}
+.overlay {
+  position: absolute;
+  text-align-all:center;
+  font-size: 40pt;
+  font-family: "American Typewriter", "Avenir Next Condensed";
+  font-weight: lighter;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.name {
+  float: left;
+}
+.options {
+   table-layout: fixed ;
+   width: 100% ;
+
+  background-color: #FA9917;
+ }
+.option\.images {
+  margin-top: 75px;
+}
+.option\.words {
+  margin-bottom: 100px;
+  font-family: "American Typewriter";
+  font-weight: bold;
+  font-size: 14pt;
+
+  color: #339DFF;
+
+}
+
+.servicesRec {
+  position:absolute;
+  margin-top:0;
+  width:100%;
+  background-color: #C8C8C8;
+  font-family: "American Typewriter", "Arial Rounded MT Bold";
+  font-size: 40pt;
+  font-weight: bold;
+  color: #339DFF;
+  text-align: center;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+
+  float: top;
+}
+
+.infoText {
+  font-size: 12pt;
+  font-weight: lighter;
+  font-family: "American Typewriter";
+}
+
+.table {
+  width: 50%;
+  position: relative;
+  float: top;
+}
+
+
