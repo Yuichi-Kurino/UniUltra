@@ -4,9 +4,11 @@
   <link rel="icon" href="/images/UniUltra logo.png">
   <link rel='stylesheet' href='/stylesheets/style.css' />
   <title><%= title %></title>
-  <div class = "navigationBar" height="">
-    <div>
-      <div class="a"><img src="/images/imageedit_2_2824098619.png" width=15% style="float: left;" /></div>
+  <div class = "navigationBar" height="200%" style="width:100%;">
+
+    <img src="/images/imageedit_2_2824098619.png" class="navigationImage" />
+    <div style="float:left;">
+
       <div class="b"><input class="button" value="Product"></div>
       <div class="b"><input class="button" value="Service"></div>
       <div class="b"><input class="button" value="Pricing"></div>
@@ -29,36 +31,49 @@
   <table width="100%" class="options" >
     <tbody>
       <tr width="100%" align="center">
-        <td><img src="/images/contact Us.png" width="50%" class="option.images" border="1px"><div class="option.words">Contact Us</div></td>
-        <td><img src="/images/free consultant.png"width="50%" class="option.images" border="1px"><div class="option.words">Free Consultant</div></td>
-        <td><img src="/images/Start on project.png"width="50%" class="option.images" border="1px"><div class="option.words">Start on project</div></td>
+        <td><img src="/images/contact Us.png"class="option.images"><div class="option.words">Contact Us</div></td>
+        <td><img src="/images/free consultant.png"class="option.images"><div class="option.words">Free Consultant</div></td>
+        <td><img src="/images/Start on project.png"class="option.images"><div class="option.words">Start on project</div></td>
       </tr>
     </tbody>
+
   </table>
 
-  <span class="servicesRec">Services</span>
-  <table class="table">
+  <div class="servicesRec">Services</div>
+  <table class="table" width="100%" >
     <tbody>
       <tr>
         <td>
-          <img src="/images/mobile-app-development-img.png" class="table">
-        </td>
-        <td>
-          <div>
-            Came up with a cool idea but don't have a technical team to design your app?
-            We provide an efficient, thorough service on developing IOS/Andriod App development.
-            We start each client's project by providing a design team to come up with the idea of the project. Each project gets a professional development team, with project leads who will establish communication between clients.
-            Modification request will also be made after we submit our drafts, we will not publish the application until clients are satisfied with our works.
-            We are your professional technical team!
+          <div  class="tableImages" style="float:left">
+            <img src="/images/mobile-app-development-img.png" style="width:inherit; position: center;">
+          </div>
+          <div style="width:45%; position:relative; float: left;">
+            <header class="infoTextHeader" style= "color:#339DFF">Cross Platform APP Dev</header>
+            <div class="infoText">
+              <p style="white-space: pre-line;">Came up with a cool idea but don't have a technical team to design your app?</p>
+              <p style="white-space: pre-line;">We provide an efficient, thorough service on developing IOS/Andriod App development.</p>
+              <p style="white-space: pre-line;">We start each client's project by providing a design team to come up with the idea of the project. Each project gets a professional development team, with project leads who will establish communication between clients.</p>
+              <p style="white-space: pre-line;">Modification request will also be made after we submit our drafts, we will not publish the application until clients are satisfied with our works.</p>
+              <p style="white-space: pre-line;">We are your professional technical team!</p>
+            </div>
           </div>
         </td>
       </tr>
       <tr>
         <td>
-
-        </td>
-        <td>
-
+          <div style="width:45%; position:relative; float:left; align: center">
+            <header class="infoTextHeader" style="color:#FA9917">Web Development/Design</header>
+            <div class="infoText">
+              <p>Need to build a website for your startup?</p>
+              <p>Don't worry, we have professional developers and designers who can work with you on the idea, and put them into beautiful websites.</p>
+              <p>Our developer and UI design team helped many clients on building their UI/Products on websites</p>
+              <p>Contact us today and get a free consultant on how to build your product with us!</p>
+              <p>We are your professional technical team!</p>
+            </div>
+          </div>
+          <div style="text-align: center; float:left; width:55%;">
+            <img src="/images/web dev.png" class="tableImages">
+          </div>
         </td>
       </tr>
     </tbody>

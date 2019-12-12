@@ -7,7 +7,7 @@ tr{
 
   width:70%;
 }
-td.a {
+.a {
   background-color: #A8F0E1;
   width: fit-content;
   position: center;
@@ -15,9 +15,16 @@ td.a {
   /*width: 15%;*/
 }
 
-td.b {
+.b {
   background-color: #FA9917;
   border-color: #FA9917;
+  float:left;
+  width:25%;
+}
+.navigationImage {
+  width:15%;
+  float: left;
+  max-width: 100px;
 }
 .button {
   background-color: transparent; /* Green */
@@ -58,6 +65,7 @@ td.b {
  }
 .option\.images {
   margin-top: 75px;
+  width: 75%;
 }
 .option\.words {
   margin-bottom: 100px;
@@ -70,7 +78,7 @@ td.b {
 }
 
 .servicesRec {
-  position:absolute;
+  position:relative;
   margin-top:0;
   width:100%;
   background-color: #C8C8C8;
@@ -81,20 +89,38 @@ td.b {
   text-align: center;
   padding-top: 2.5%;
   padding-bottom: 2.5%;
-
   float: top;
-}
-
-.infoText {
-  font-size: 12pt;
-  font-weight: lighter;
-  font-family: "American Typewriter";
 }
 
 .table {
-  width: 50%;
-  position: relative;
-  float: top;
+  width: 100%;
+  position: absolute;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
+
+.tableImages {
+  width: 55%;
+  position: relative;
+  top: 0;
+  /*text-align: center;*/
+  text-align: center;
+  vertical-align: middle;
+}
+
+.infoTextHeader {
+  font-size: 20pt;
+  font-family: "American Typewriter";
+  text-align: center;
+  transform: translate(-5%);
+}
+
+.infoText {
+  font-size: 13pt;
+  font-weight: lighter;
+  font-family: "American Typewriter";
+  margin: 5%;
+}
+
 
 
