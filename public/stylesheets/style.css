@@ -122,5 +122,16 @@ tr{
   margin: 5%;
 }
 
+.navigationBar {
+  height: 10%;
+  width: 100%;
+}
+.navSection {
+  height: 100%;
+  width:92%;
+  background-color: #FA9917;
+  padding-bottom: 1%;
+}
+
 
 
