@@ -20,7 +20,7 @@ tr{
   border-color: #FA9917;
   text-align: center;
   float:left;
-  width:25%;
+  width:calc((100% - 100px)/4);
   height: inherit;
   align-items: center;
 }
