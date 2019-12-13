@@ -123,4 +123,7 @@ tr{
 }
 
 
-
+#right {
+  width: 100%;
+  background-color:#00FF00;
+}
