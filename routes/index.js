@@ -3,7 +3,7 @@ var router = express.Router();
 var title = "UniUltraTech";
 /* GET home page. */
 
-router.get('/display', function(req, res, next) {
+router.get('/', function(req, res, next) {
   var query = require('url').parse(req.url, true).query;
 
   var uniUltraLogo = "/images/imageedit_2_2824098619.png";

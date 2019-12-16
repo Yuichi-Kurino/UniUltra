@@ -62,7 +62,8 @@ tr{
   font-size: 20px;
   font-weight: lighter;
   height: 100%;
-
+  width:calc((100%- 100px)/4);
+  /*margin:0;*/
 }
 
 .container { position:relative; }
@@ -149,13 +150,6 @@ tr{
 
 
 
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
 
 .dropdown {
   position: relative;
@@ -164,14 +158,11 @@ tr{
   border-color: #FA9917;
   text-align: center;
   float:left;
-  width:calc((100%- 100px)/4);
+  width: 15%; /* RIGHT HERE - To make the div bigger */
+  margin-left: 5%; /* RIGHT HERE - To give it more space between the next div*/
   height: inherit;
   align-items: center;
-
-  position: relative;
-  display: inline-block;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -193,5 +184,3 @@ tr{
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
