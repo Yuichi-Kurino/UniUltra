@@ -108,9 +108,8 @@ tr{
 
 .servicesRec {
   position:relative;
-  margin-top:0;
+  padding-top:900px;
   width:100%;
-  background-color: #C8C8C8;
   font-family: "American Typewriter", "Arial Rounded MT Bold";
   font-size: 40pt;
   font-weight: bold;
@@ -119,6 +118,8 @@ tr{
   padding-top: 2.5%;
   padding-bottom: 2.5%;
   float: top;
+  border-color: #339DFF;
+  border-top: 90px;
 }
 
 .table {
