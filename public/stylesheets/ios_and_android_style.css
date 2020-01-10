@@ -68,18 +68,20 @@ tr{
     margin: 0;
 }
 
-.container { position:relative; }
+.container {position: relative;}
 .container video {
     position:relative;
 }
 .overlay {
     position: absolute;
-    text-align:left;
     font-size: 40pt;
     font-family: "American Typewriter", "Avenir Next Condensed";
-    top: 50%;
-    left: 50%;
+    top: 25%;
+    left: 25%;
     transform: translate(-50%, -50%);
+    margin: 0;
+    float: bottom;
+
 }
 .name {
     height: 49px;
@@ -89,7 +91,7 @@ tr{
     font-size: 40px;
     font-weight: 700;
     line-height: 49px;
-
+    margin: inherit;
 }
 .message{
     height: 107px;
@@ -99,8 +101,21 @@ tr{
     font-size: 22px;
     font-weight: 300;
     line-height: 25px;
-
+    margin: inherit;
 }
+.free-quote {
+    height: 22.66px;
+    width: 120px;
+    color: #FA9917;
+    font-family: "American Typewriter";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    border: #FA9917 1px;
+    float: bottom;
+    position: absolute;
+}
+
 
 .options {
     table-layout: fixed ;
