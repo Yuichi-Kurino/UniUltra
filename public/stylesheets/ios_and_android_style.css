@@ -50,13 +50,11 @@ tr{
     float:left;
     display: table-row;
 }
-
 .button {
     background-color: transparent;
     color: white;
     border: none;
     text-align: center;
-    /*display: inline-block;*/
     font-family: "American Typewriter", "Avenir Next Condensed";
     font-size: 20px;
     font-weight: lighter;
@@ -80,7 +78,7 @@ tr{
     left: 25%;
     transform: translate(-50%, -50%);
     margin: 0;
-    float: bottom;
+
 
 }
 .name {
@@ -104,7 +102,7 @@ tr{
     margin: inherit;
 }
 .free-quote {
-    height: 22.66px;
+    height: 30px;
     width: 120px;
     color: #FA9917;
     font-family: "American Typewriter";
@@ -114,6 +112,11 @@ tr{
     border: #FA9917 1px;
     float: bottom;
     position: absolute;
+    right: 0;
+    border: solid 1px;
+    border-color: #FA9917;
+    border-radius: 10px;
+    padding: 15px 25px;
 }
 
 
@@ -132,7 +135,6 @@ tr{
     font-family: "American Typewriter";
     font-weight: bold;
     font-size: 14pt;
-
     color: #339DFF;
 
 }
@@ -158,6 +160,7 @@ tr{
     position: absolute;
     margin-top: 5%;
     margin-bottom: 5%;
+    display: inline-block;
 }
 
 .tableImages {
@@ -219,3 +222,15 @@ tr{
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
+
+
+.aboutUs{
+    height: 46px;
+    width: 174px;
+    color: #000;
+    font-family: "American Typewriter";
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    float:bottom;
+}
