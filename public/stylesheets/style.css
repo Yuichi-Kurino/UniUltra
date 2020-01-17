@@ -130,7 +130,6 @@ tr{
 
 .table {
   width: 100%;
-  position: absolute;
   margin-top: 5%;
   margin-bottom: 5%;
   float: bottom;
@@ -198,11 +197,23 @@ tr{
 .dropdown:hover .dropdown-content {display: block;}
 
 .aboutUs{
-  height: 46px;
-  width: 174px;
-  color: #000;
-  font-family: "American Typewriter";
+  font-family: AppleGothic;
   font-size: 40px;
-  line-height: 46px;
+  line-height: 49px;
   text-align: center;
+  width:90%;
+  margin:0 5%;
+}
+
+.text{
+  font-family: "American Typewriter";
+  color: #000;
+}
+
+.menu{
+  width:50%;
+  float: left;
+  color: #17A1FA;
+  background: inherit;
+  padding:5% 0;
 }
