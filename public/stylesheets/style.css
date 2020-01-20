@@ -203,6 +203,8 @@ tr{
   text-align: center;
   width:90%;
   margin:0 5%;
+  position: relative;
+  float: bottom;
 }
 
 .text{
@@ -210,10 +212,29 @@ tr{
   color: #000;
 }
 
+.test {
+  width:100%;
+  background: rgba(200,200,200,0.28); border-radius: 50px;
+  display:table;
+}
 .menu{
-  width:50%;
-  float: left;
+  position: relative;
+  display: table-cell;
+}
+.menu p{
+  float: bottom;
   color: #17A1FA;
-  background: inherit;
-  padding:5% 0;
+  margin:0;
+}
+
+footer{
+  color: #FFF;
+  font-family: "Apple SD Gothic Neo";
+  font-size: 22px;
+  line-height: 28px;
+  height: 100px;
+
+}
+footer p{
+  margin:0;
 }

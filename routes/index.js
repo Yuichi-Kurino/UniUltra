@@ -17,4 +17,12 @@ router.get('/ios_android_app', function(req, res, next) {
 
 });
 
+router.post("/contactUsForm",function(req, res, next){
+    var name = req.body.name;
+    var email = req.body.email;
+    var concern = req.body.concern;
+
+    console.log(concern);
+});
+
 module.exports = router;
